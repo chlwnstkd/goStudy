@@ -1,4 +1,4 @@
-// 4-1
+// 4-24
 package main
 
 import (
@@ -6,8 +6,9 @@ import (
 )
 
 func main() {
-	var a [5]int
-	a[2] = 7
+	a := map[string]int{"Hello": 10, "world"}
+
+	delete(a, "world")
 
 	fmt.Println(a)
 }

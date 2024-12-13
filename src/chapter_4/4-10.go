@@ -1,4 +1,4 @@
-// 4-1
+// 4-10
 package main
 
 import (
@@ -6,8 +6,9 @@ import (
 )
 
 func main() {
-	var a [5]int
-	a[2] = 7
+	a := []int{1, 2, 3}
+	b := []int{4, 5, 6}
 
+	a = append(a, b...)
 	fmt.Println(a)
 }

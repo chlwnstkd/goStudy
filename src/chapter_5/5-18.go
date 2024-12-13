@@ -1,4 +1,4 @@
-// 4-1
+// 5-18
 package main
 
 import (
@@ -6,8 +6,5 @@ import (
 )
 
 func main() {
-	var a [5]int
-	a[2] = 7
-
-	fmt.Println(a)
+	fmt.Println("Hello World!")
 }
